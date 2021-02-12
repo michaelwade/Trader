@@ -16,7 +16,8 @@ A trading assistant app
 
 ![add_warn](https://github.com/michaelwade/Trader/blob/main/add_warn.png)
 
-### 3.添加完一个警报之后，警报列表页会出现你刚添加的警报，第一排是你想告警的货币对的名称即当前价格，第二排是告警的条件，如果想要让警报启动，你还需将右侧的开关打开。如果警报条件达到了，Trader会通过通知栏消息和Toast提示的方式提醒你，如果你想关闭警报，把右侧开关关掉即可。注意：如果警报条件到了，只弹Toast提示却并没有受到通知栏消息，需要到系统设置里允许Trader通知。
+### 3.添加完一个警报之后，警报列表页会出现你刚添加的警报，每一个警报的上面一行是你想告警的货币对的名称及其当前价格，下面一行是触发警报的条件。如果想要启动警报，你还需将条目右侧的开关打开。如果警报条件达到了，Trader会通过通知栏消息和Toast提示的方式提醒你，如果你想关闭警报，把右侧开关关掉即可。
+注意：如果警报条件到了，只弹Toast提示却并没有受到通知栏消息，需要到系统设置里的通知管理那里打开Trader通知开关。
 
 ![trigger_warn](https://github.com/michaelwade/Trader/blob/main/trigger_warn.png)
 
